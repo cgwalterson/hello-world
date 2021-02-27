@@ -37,7 +37,7 @@ public class GitDemo {
      * i.e. if num = 1234
      *  the function will return 4321
      *****/
-    public double reverseNumber(int num){
+    public int reverseNumber(int num){
         
         while(num != 0){
             int n = num % 10;
